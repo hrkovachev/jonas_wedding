@@ -1,0 +1,84 @@
+html,
+body {
+  overflow-x: hidden;
+}
+
+body {
+  color: #98777b;
+  background: radial-gradient(
+    farthest-corner at 40px 40px,
+    #eaeaea 0%,
+    #faf0e6 100%
+  );
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  margin: 0;
+  padding: 0;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+main {
+  position: relative;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.swiper {
+  width: 280px;
+  height: 380px;
+}
+
+.swiper-slide {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 18px;
+  font-size: 22px;
+  font-weight: bold;
+
+  background: radial-gradient(closest-corner, #eaeaea, #faf0e6);
+  border: 1px solid #98777b;
+}
+
+.swiper-slide img {
+  max-height: 100%;
+}
+
+.swiper-slide p {
+  padding: 10px;
+  margin: 5 0;
+}
+
+h1 {
+  margin-bottom: 0;
+}
+
+main {
+  font-size: large;
+  font-weight: 600;
+}
+
+#easter-egg-1 {
+  width: 90%;
+  margin-top: 100%;
+}
+
+#easter-egg-2 {
+  width: 90%;
+  margin-top: 150%;
+}
+
+#easter-egg-3 {
+  width: 90%;
+  margin-top: 200%;
+}
+
+#easter-egg-4 {
+  width: 90%;
+  margin-top: 230%;
+}
